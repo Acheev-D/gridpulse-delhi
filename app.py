@@ -22,7 +22,6 @@ def _get_splash_bg_css() -> str:
         Path("assets/splash_bg_opt.jpg"),
         Path("assets/splash_bg.png"),
         Path("splash_bg.png"),
-        Path("splash_bg.png.png"),
         Path("data/splash_bg.png"),
     ]
     img_path = next((p for p in possible_paths if p.exists()), None)
